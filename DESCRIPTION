@@ -1,0 +1,13 @@
+Package: exptest2
+Type: Package
+Title: Tools to test whether a given distribution comes from an exponential familly of distributions.
+Version: 0.1.2
+Author: Uros Stegic
+Maintainer: Uros Stegic <urosstegic@gmx.com>
+Description: Two types of exponentiality tests: integral-type and Kolmogorov-type used to determine whether distribution falls into exponential family of distributions. Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.13)
+LinkingTo: Rcpp
+SystemRequirements: C++11
