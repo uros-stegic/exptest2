@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // ahsanullah_test
 Rcpp::NumericVector ahsanullah_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_ahsanullah_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_ahsanullah_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -18,7 +18,7 @@ END_RCPP
 }
 // atkinson_test
 Rcpp::NumericVector atkinson_test(Rcpp::NumericVector x, double p);
-RcppExport SEXP _exptest2_atkinson_test(SEXP xSEXP, SEXP pSEXP) {
+RcppExport SEXP exptest2_atkinson_test(SEXP xSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -30,7 +30,7 @@ END_RCPP
 }
 // co_test
 Rcpp::NumericVector co_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_co_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_co_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -41,7 +41,7 @@ END_RCPP
 }
 // cvm_test
 Rcpp::NumericVector cvm_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_cvm_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_cvm_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -52,7 +52,7 @@ END_RCPP
 }
 // deshpande_test
 Rcpp::NumericVector deshpande_test(Rcpp::NumericVector x, double b);
-RcppExport SEXP _exptest2_deshpande_test(SEXP xSEXP, SEXP bSEXP) {
+RcppExport SEXP exptest2_deshpande_test(SEXP xSEXP, SEXP bSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -64,7 +64,7 @@ END_RCPP
 }
 // ep_test
 Rcpp::NumericVector ep_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_ep_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_ep_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -75,7 +75,7 @@ END_RCPP
 }
 // epstein_test
 Rcpp::NumericVector epstein_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_epstein_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_epstein_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -86,7 +86,7 @@ END_RCPP
 }
 // frozini_test
 Rcpp::NumericVector frozini_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_frozini_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_frozini_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -97,7 +97,7 @@ END_RCPP
 }
 // gini_test
 Rcpp::NumericVector gini_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_gini_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_gini_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -108,7 +108,7 @@ END_RCPP
 }
 // gnedenko_test
 Rcpp::NumericVector gnedenko_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_gnedenko_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_gnedenko_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -119,7 +119,7 @@ END_RCPP
 }
 // harris_test
 Rcpp::NumericVector harris_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_harris_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_harris_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -130,7 +130,7 @@ END_RCPP
 }
 // hegazy1_test
 Rcpp::NumericVector hegazy1_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_hegazy1_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_hegazy1_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -141,7 +141,7 @@ END_RCPP
 }
 // hegazy2_test
 Rcpp::NumericVector hegazy2_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_hegazy2_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_hegazy2_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -152,7 +152,7 @@ END_RCPP
 }
 // hollander_test
 Rcpp::NumericVector hollander_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_hollander_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_hollander_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -163,7 +163,7 @@ END_RCPP
 }
 // kimber_test
 Rcpp::NumericVector kimber_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_kimber_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_kimber_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -174,7 +174,7 @@ END_RCPP
 }
 // kochar_test
 Rcpp::NumericVector kochar_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_kochar_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_kochar_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -185,7 +185,7 @@ END_RCPP
 }
 // ks_test
 Rcpp::NumericVector ks_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_ks_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_ks_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -196,7 +196,7 @@ END_RCPP
 }
 // lorenz_test
 Rcpp::NumericVector lorenz_test(Rcpp::NumericVector x, double p);
-RcppExport SEXP _exptest2_lorenz_test(SEXP xSEXP, SEXP pSEXP) {
+RcppExport SEXP exptest2_lorenz_test(SEXP xSEXP, SEXP pSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -208,7 +208,7 @@ END_RCPP
 }
 // moran_test
 Rcpp::NumericVector moran_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_moran_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_moran_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -219,7 +219,7 @@ END_RCPP
 }
 // pietra_test
 Rcpp::NumericVector pietra_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_pietra_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_pietra_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -230,7 +230,7 @@ END_RCPP
 }
 // rossberg_test
 Rcpp::NumericVector rossberg_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_rossberg_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_rossberg_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -241,7 +241,7 @@ END_RCPP
 }
 // shapiro_test
 Rcpp::NumericVector shapiro_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_shapiro_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_shapiro_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -252,7 +252,7 @@ END_RCPP
 }
 // exp_test_integral
 Rcpp::NumericVector exp_test_integral(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_exp_test_integral(SEXP xSEXP) {
+RcppExport SEXP exptest2_exp_test_integral(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -263,7 +263,7 @@ END_RCPP
 }
 // exp_test_kolmogorov
 Rcpp::NumericVector exp_test_kolmogorov(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_exp_test_kolmogorov(SEXP xSEXP) {
+RcppExport SEXP exptest2_exp_test_kolmogorov(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -274,7 +274,7 @@ END_RCPP
 }
 // we_test
 Rcpp::NumericVector we_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_we_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_we_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -285,7 +285,7 @@ END_RCPP
 }
 // ww_test
 Rcpp::NumericVector ww_test(Rcpp::NumericVector x);
-RcppExport SEXP _exptest2_ww_test(SEXP xSEXP) {
+RcppExport SEXP exptest2_ww_test(SEXP xSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -293,39 +293,4 @@ BEGIN_RCPP
     rcpp_result_gen = Rcpp::wrap(ww_test(x));
     return rcpp_result_gen;
 END_RCPP
-}
-
-static const R_CallMethodDef CallEntries[] = {
-    {"_exptest2_ahsanullah_test", (DL_FUNC) &_exptest2_ahsanullah_test, 1},
-    {"_exptest2_atkinson_test", (DL_FUNC) &_exptest2_atkinson_test, 2},
-    {"_exptest2_co_test", (DL_FUNC) &_exptest2_co_test, 1},
-    {"_exptest2_cvm_test", (DL_FUNC) &_exptest2_cvm_test, 1},
-    {"_exptest2_deshpande_test", (DL_FUNC) &_exptest2_deshpande_test, 2},
-    {"_exptest2_ep_test", (DL_FUNC) &_exptest2_ep_test, 1},
-    {"_exptest2_epstein_test", (DL_FUNC) &_exptest2_epstein_test, 1},
-    {"_exptest2_frozini_test", (DL_FUNC) &_exptest2_frozini_test, 1},
-    {"_exptest2_gini_test", (DL_FUNC) &_exptest2_gini_test, 1},
-    {"_exptest2_gnedenko_test", (DL_FUNC) &_exptest2_gnedenko_test, 1},
-    {"_exptest2_harris_test", (DL_FUNC) &_exptest2_harris_test, 1},
-    {"_exptest2_hegazy1_test", (DL_FUNC) &_exptest2_hegazy1_test, 1},
-    {"_exptest2_hegazy2_test", (DL_FUNC) &_exptest2_hegazy2_test, 1},
-    {"_exptest2_hollander_test", (DL_FUNC) &_exptest2_hollander_test, 1},
-    {"_exptest2_kimber_test", (DL_FUNC) &_exptest2_kimber_test, 1},
-    {"_exptest2_kochar_test", (DL_FUNC) &_exptest2_kochar_test, 1},
-    {"_exptest2_ks_test", (DL_FUNC) &_exptest2_ks_test, 1},
-    {"_exptest2_lorenz_test", (DL_FUNC) &_exptest2_lorenz_test, 2},
-    {"_exptest2_moran_test", (DL_FUNC) &_exptest2_moran_test, 1},
-    {"_exptest2_pietra_test", (DL_FUNC) &_exptest2_pietra_test, 1},
-    {"_exptest2_rossberg_test", (DL_FUNC) &_exptest2_rossberg_test, 1},
-    {"_exptest2_shapiro_test", (DL_FUNC) &_exptest2_shapiro_test, 1},
-    {"_exptest2_exp_test_integral", (DL_FUNC) &_exptest2_exp_test_integral, 1},
-    {"_exptest2_exp_test_kolmogorov", (DL_FUNC) &_exptest2_exp_test_kolmogorov, 1},
-    {"_exptest2_we_test", (DL_FUNC) &_exptest2_we_test, 1},
-    {"_exptest2_ww_test", (DL_FUNC) &_exptest2_ww_test, 1},
-    {NULL, NULL, 0}
-};
-
-RcppExport void R_init_exptest2(DllInfo *dll) {
-    R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
-    R_useDynamicSymbols(dll, FALSE);
 }

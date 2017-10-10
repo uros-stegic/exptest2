@@ -8,6 +8,6 @@ Description: Two types of exponentiality tests: integral-type and Kolmogorov-typ
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 0.12.13)
+Imports: Rcpp (>= 0.12.9)
 LinkingTo: Rcpp
 SystemRequirements: C++11

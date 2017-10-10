@@ -2,106 +2,106 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 ahsanullah_test <- function(x) {
-    .Call(`_exptest2_ahsanullah_test`, x)
+    .Call('exptest2_ahsanullah_test', PACKAGE = 'exptest2', x)
 }
 
 atkinson_test <- function(x, p = 0.99) {
-    .Call(`_exptest2_atkinson_test`, x, p)
+    .Call('exptest2_atkinson_test', PACKAGE = 'exptest2', x, p)
 }
 
 co_test <- function(x) {
-    .Call(`_exptest2_co_test`, x)
+    .Call('exptest2_co_test', PACKAGE = 'exptest2', x)
 }
 
 cvm_test <- function(x) {
-    .Call(`_exptest2_cvm_test`, x)
+    .Call('exptest2_cvm_test', PACKAGE = 'exptest2', x)
 }
 
 deshpande_test <- function(x, b = 0.44) {
-    .Call(`_exptest2_deshpande_test`, x, b)
+    .Call('exptest2_deshpande_test', PACKAGE = 'exptest2', x, b)
 }
 
 ep_test <- function(x) {
-    .Call(`_exptest2_ep_test`, x)
+    .Call('exptest2_ep_test', PACKAGE = 'exptest2', x)
 }
 
 epstein_test <- function(x) {
-    .Call(`_exptest2_epstein_test`, x)
+    .Call('exptest2_epstein_test', PACKAGE = 'exptest2', x)
 }
 
 frozini_test <- function(x) {
-    .Call(`_exptest2_frozini_test`, x)
+    .Call('exptest2_frozini_test', PACKAGE = 'exptest2', x)
 }
 
 gini_test <- function(x) {
-    .Call(`_exptest2_gini_test`, x)
+    .Call('exptest2_gini_test', PACKAGE = 'exptest2', x)
 }
 
 gnedenko_test <- function(x) {
-    .Call(`_exptest2_gnedenko_test`, x)
+    .Call('exptest2_gnedenko_test', PACKAGE = 'exptest2', x)
 }
 
 harris_test <- function(x) {
-    .Call(`_exptest2_harris_test`, x)
+    .Call('exptest2_harris_test', PACKAGE = 'exptest2', x)
 }
 
 hegazy1_test <- function(x) {
-    .Call(`_exptest2_hegazy1_test`, x)
+    .Call('exptest2_hegazy1_test', PACKAGE = 'exptest2', x)
 }
 
 hegazy2_test <- function(x) {
-    .Call(`_exptest2_hegazy2_test`, x)
+    .Call('exptest2_hegazy2_test', PACKAGE = 'exptest2', x)
 }
 
 hollander_test <- function(x) {
-    .Call(`_exptest2_hollander_test`, x)
+    .Call('exptest2_hollander_test', PACKAGE = 'exptest2', x)
 }
 
 kimber_test <- function(x) {
-    .Call(`_exptest2_kimber_test`, x)
+    .Call('exptest2_kimber_test', PACKAGE = 'exptest2', x)
 }
 
 kochar_test <- function(x) {
-    .Call(`_exptest2_kochar_test`, x)
+    .Call('exptest2_kochar_test', PACKAGE = 'exptest2', x)
 }
 
 ks_test <- function(x) {
-    .Call(`_exptest2_ks_test`, x)
+    .Call('exptest2_ks_test', PACKAGE = 'exptest2', x)
 }
 
 lorenz_test <- function(x, p = 0.5) {
-    .Call(`_exptest2_lorenz_test`, x, p)
+    .Call('exptest2_lorenz_test', PACKAGE = 'exptest2', x, p)
 }
 
 moran_test <- function(x) {
-    .Call(`_exptest2_moran_test`, x)
+    .Call('exptest2_moran_test', PACKAGE = 'exptest2', x)
 }
 
 pietra_test <- function(x) {
-    .Call(`_exptest2_pietra_test`, x)
+    .Call('exptest2_pietra_test', PACKAGE = 'exptest2', x)
 }
 
 rossberg_test <- function(x) {
-    .Call(`_exptest2_rossberg_test`, x)
+    .Call('exptest2_rossberg_test', PACKAGE = 'exptest2', x)
 }
 
 shapiro_test <- function(x) {
-    .Call(`_exptest2_shapiro_test`, x)
+    .Call('exptest2_shapiro_test', PACKAGE = 'exptest2', x)
 }
 
 exp_test_integral <- function(x) {
-    .Call(`_exptest2_exp_test_integral`, x)
+    .Call('exptest2_exp_test_integral', PACKAGE = 'exptest2', x)
 }
 
 exp_test_kolmogorov <- function(x) {
-    .Call(`_exptest2_exp_test_kolmogorov`, x)
+    .Call('exptest2_exp_test_kolmogorov', PACKAGE = 'exptest2', x)
 }
 
 we_test <- function(x) {
-    .Call(`_exptest2_we_test`, x)
+    .Call('exptest2_we_test', PACKAGE = 'exptest2', x)
 }
 
 ww_test <- function(x) {
-    .Call(`_exptest2_ww_test`, x)
+    .Call('exptest2_ww_test', PACKAGE = 'exptest2', x)
 }
 
