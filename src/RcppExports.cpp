@@ -161,6 +161,17 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// integral_test
+Rcpp::NumericVector integral_test(Rcpp::NumericVector x);
+RcppExport SEXP exptest2_integral_test(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(integral_test(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 // kimber_test
 Rcpp::NumericVector kimber_test(Rcpp::NumericVector x);
 RcppExport SEXP exptest2_kimber_test(SEXP xSEXP) {
@@ -180,6 +191,17 @@ BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     rcpp_result_gen = Rcpp::wrap(kochar_test(x));
+    return rcpp_result_gen;
+END_RCPP
+}
+// kolmogorov_test
+Rcpp::NumericVector kolmogorov_test(Rcpp::NumericVector x);
+RcppExport SEXP exptest2_kolmogorov_test(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(kolmogorov_test(x));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -247,28 +269,6 @@ BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
     rcpp_result_gen = Rcpp::wrap(shapiro_test(x));
-    return rcpp_result_gen;
-END_RCPP
-}
-// exp_test_integral
-Rcpp::NumericVector exp_test_integral(Rcpp::NumericVector x);
-RcppExport SEXP exptest2_exp_test_integral(SEXP xSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(exp_test_integral(x));
-    return rcpp_result_gen;
-END_RCPP
-}
-// exp_test_kolmogorov
-Rcpp::NumericVector exp_test_kolmogorov(Rcpp::NumericVector x);
-RcppExport SEXP exptest2_exp_test_kolmogorov(SEXP xSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(exp_test_kolmogorov(x));
     return rcpp_result_gen;
 END_RCPP
 }

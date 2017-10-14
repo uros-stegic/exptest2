@@ -57,12 +57,20 @@ hollander_test <- function(x) {
     .Call('exptest2_hollander_test', PACKAGE = 'exptest2', x)
 }
 
+integral_test <- function(x) {
+    .Call('exptest2_integral_test', PACKAGE = 'exptest2', x)
+}
+
 kimber_test <- function(x) {
     .Call('exptest2_kimber_test', PACKAGE = 'exptest2', x)
 }
 
 kochar_test <- function(x) {
     .Call('exptest2_kochar_test', PACKAGE = 'exptest2', x)
+}
+
+kolmogorov_test <- function(x) {
+    .Call('exptest2_kolmogorov_test', PACKAGE = 'exptest2', x)
 }
 
 ks_test <- function(x) {
@@ -87,14 +95,6 @@ rossberg_test <- function(x) {
 
 shapiro_test <- function(x) {
     .Call('exptest2_shapiro_test', PACKAGE = 'exptest2', x)
-}
-
-exp_test_integral <- function(x) {
-    .Call('exptest2_exp_test_integral', PACKAGE = 'exptest2', x)
-}
-
-exp_test_kolmogorov <- function(x) {
-    .Call('exptest2_exp_test_kolmogorov', PACKAGE = 'exptest2', x)
 }
 
 we_test <- function(x) {
